@@ -1,0 +1,39 @@
+### Crear un usuario
+POST http://127.0.0.1:8000/api/users/
+Content-Type: application/json
+
+{
+    "id": "124",
+    "name": "silvia"
+}
+
+### Obtener todos los usuarios
+GET http://127.0.0.1:8000/api/users/
+
+### Actualizar usuario
+PUT http://127.0.0.1:8000/api/users/124/
+Content-Type: application/json
+
+{
+    "name": "Juan Perez"
+}
+
+### Eliminar usuario
+DELETE http://127.0.0.1:8000/api/users/124/
+
+### Agregar preferencia musical
+POST http://127.0.0.1:8000/api/users/123/preferences/
+Content-Type: application/json
+
+{
+    "genre": "Rock"
+}
+
+### Obtener preferencias del usuario
+GET http://127.0.0.1:8000/api/users/123/preferences/
+
+### Buscar información de un artista en Spotify
+GET http://127.0.0.1:8000/api/spotify/artist/Eir aoi/
+
+### Buscar información de una canción en Spotify
+GET http://127.0.0.1:8000/api/spotify/song/This game/
