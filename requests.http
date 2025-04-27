@@ -22,7 +22,7 @@ Content-Type: application/json
 DELETE http://127.0.0.1:8000/api/users/124/
 
 ### Agregar preferencia musical
-POST http://127.0.0.1:8000/api/users/123/preferences/
+POST http://127.0.0.1:8000/api/users/124/preferences/
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ### Obtener preferencias del usuario
-GET http://127.0.0.1:8000/api/users/123/preferences/
+GET http://127.0.0.1:8000/api/users/124/preferences/
 
 ### Buscar información de un artista en Spotify
 GET http://127.0.0.1:8000/api/spotify/artist/Eir aoi/
