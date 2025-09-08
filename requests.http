@@ -3,7 +3,7 @@ POST http://127.0.0.1:8000/api/users/
 Content-Type: application/json
 
 {
-    "id": "124",
+    "id": "128",
     "name": "silvia"
 }
 
@@ -11,7 +11,7 @@ Content-Type: application/json
 GET http://127.0.0.1:8000/api/users/
 
 ### Actualizar usuario
-PUT http://127.0.0.1:8000/api/users/124/
+PUT http://127.0.0.1:8000/api/users/128/
 Content-Type: application/json
 
 {
@@ -19,10 +19,10 @@ Content-Type: application/json
 }
 
 ### Eliminar usuario
-DELETE http://127.0.0.1:8000/api/users/124/
+DELETE http://127.0.0.1:8000/api/users/128/
 
 ### Agregar preferencia musical
-POST http://127.0.0.1:8000/api/users/124/preferences/
+POST http://127.0.0.1:8000/api/users/128/preferences/
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ### Obtener preferencias del usuario
-GET http://127.0.0.1:8000/api/users/124/preferences/
+GET http://127.0.0.1:8000/api/users/128/preferences/
 
 ### Buscar información de un artista en Spotify
 GET http://127.0.0.1:8000/api/spotify/artist/Eir aoi/
